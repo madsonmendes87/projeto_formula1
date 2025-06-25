@@ -12,17 +12,16 @@
         </tr>
     </table>
 
-<h2>Players</h2>
+<h2>Pilotos</h2>
       <table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
         <tr>
             <td style="border: 1px solid black; text-align: center;">
-                <p>Mario</p>
-                <img src="./docs/mario.gif" alt="Mario Kart" width="60" height="60">
+                <p>Piastri</p>
+                <img src="./assets/piastri.gif" alt="Oscar Piastri" width="60" height="60">
             </td>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Velocidade: 4</p>
                 <p>Manobrabilidade: 3</p>
-                <p>Poder: 3</p>
             </td>
              <td style="border: 1px solid black; text-align: center;">
                 <p>Peach</p>
