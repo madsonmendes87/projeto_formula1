@@ -1,0 +1,11 @@
+{
+  "name": "projeto_formula1",
+  "version": "1.0.0",
+  "description": "logica de um jogo de formula 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Madson Mendes",
+  "license": "ISC"
+}
