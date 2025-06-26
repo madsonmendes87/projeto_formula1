@@ -72,21 +72,20 @@
 
 <h3>🕹️ Regras & mecânicas:</h3>
 
-<b>Jogadores:</b>
+<b>Pilotos:</b>
 
-<input type="checkbox" id="jogadores-item" />
-<label for="jogadores-item">O Computador deve receber dois personagens para disputar a corrida em um objeto cada</label>
+<input type="checkbox" id="pilotos-item" />
+<label for="pilotos-item">O Computador deve receber dois pilotos para disputar a corrida</label>
 
 <b>Pistas:</b>
 
 <ul>
-  <li><input type="checkbox" id="pistas-1-item" /> <label for="pistas-1-item">Os personagens irão correr em uma pista aleatória de 5 rodadas</label></li>
-  <li><input type="checkbox" id="pistas-2-item" /> <label for="pistas-2-item">A cada rodada, será sorteado um bloco da pista que pode ser uma reta, curva ou confronto</label>
+  <li><input type="checkbox" id="pistas-1-item" /> <label for="pistas-1-item">Os pilotos irão correr em uma pista aleatória de 10 voltas</label></li>
+  <li><input type="checkbox" id="pistas-2-item" /> <label for="pistas-2-item">A cada volta, será sorteado um bloco da pista que pode ser uma reta ou curva</label>
     <ul>
-      <li><input type="checkbox" id="pistas-2-1-item" /> <label for="pistas-2-1-item">Caso o bloco da pista seja uma RETA, o jogador deve jogar um dado de 6 lados e somar o atributo VELOCIDADE, quem vencer ganha um ponto</label></li>
-      <li><input type="checkbox" id="pistas-2-2-item" /> <label for="pistas-2-2-item">Caso o bloco da pista seja uma CURVA, o jogador deve jogar um dado de 6 lados e somar o atributo MANOBRABILIDADE, quem vencer ganha um ponto</label></li>
-      <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Caso o bloco da pista seja um CONFRONTO, o jogador deve jogar um dado de 6 lados e somar o atributo PODER, quem perder, perde um ponto</label></li>
-      <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Nenhum jogador pode ter pontuação negativa (valores abaixo de 0)</label></li>
+      <li><input type="checkbox" id="pistas-2-1-item" /> <label for="pistas-2-1-item">Caso o bloco da pista seja uma RETA, o piloto deve jogar um dado de 6 lados e somar o atributo VELOCIDADE, quem vencer ganha um ponto</label></li>
+      <li><input type="checkbox" id="pistas-2-2-item" /> <label for="pistas-2-2-item">Caso o bloco da pista seja uma CURVA, o piloto deve jogar um dado de 6 lados e somar o atributo MANOBRABILIDADE, quem vencer ganha um ponto</label></li>
+      <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Nenhum piloto pode ter pontuação negativa (valores abaixo de 0)</label></li>
     </ul>
   </li>
 </ul>
@@ -94,4 +93,4 @@
 <b>Condição de vitória:</b>
 
 <input type="checkbox" id="vitoria-item" />
-<label for="vitoria-item">Ao final, vence quem acumulou mais pontos</label>
+<label for="vitoria-item">Vence a corrida quem acumulou mais pontos</label>
